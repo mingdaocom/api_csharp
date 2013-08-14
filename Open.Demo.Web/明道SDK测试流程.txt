@@ -1,0 +1,4 @@
+测试流程
+1、修改配置文件中“app_key”，保证应用状态是“审核”通过的。
+2、修改配置文件中“app_secret”，和“app_key”是相匹配
+3、修改配置文件中“redirect_uri”，保证和应用表Application中Calback_Url相一致

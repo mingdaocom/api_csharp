@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>明道应用SDK流程</title>
+    <style type="text/css">
+    *{ font-family:微软雅黑;}
+    
+    li{ height:30px; line-height:35px; cursor:pointer;}
+    li a:link{ color:Blue;}
+    li a:hover{ color:Black;}
+    li a:visited{ color:Blue;}
+    </style>
+</head>
+<body>
+    <div style=" width:480px; height:280px; margin-top:20px; border:1px solid #CCCCCC;margin-left:auto; margin-right:auto;">
+        <div style=" margin-top:8px; margin-left:20px; height:30px;">
+            <h3>明道应用SDK流程</h3>
+        </div>
+        <div style="border-bottom:1px solid #CCCCCC; width:240px; height:1px; margin-left:20px;"></div>
+        <div  style="margin-left:20px;">
+            <ul>
+                <li>
+                    <a style="color:Blue;">1.在Web.config填写app_key、app_secret、redirect_uri</a>
+                </li>
+                <li>
+                    <a href="authorize_default.aspx" target="_blank">2.请求用户授权</a>
+                </li>
+                <li>
+                    <a style="color:Blue;">3.重定向页面 获取请求验证码</a>
+                </li>
+                <li>
+                    <a href="access_token.aspx" target="_blank">4.获取访问令牌</a> 
+                </li>
+                <li>
+                    <a href="TestMDApi.aspx" target="_blank">5.利用访问令牌 测试相应接口</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "E:\...\Open.Demo.Web\", "Open.Demo.Web", "{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/Open.Demo.root/Open.Demo", OPGGAAAA"
+		SccAuxPath = ""
+		SccLocalPath = ".."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		ProjectReferences = "{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}|Open.MingdaoSDK.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Open.Demo.Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\Open.Demo.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Open.Demo.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Open.Demo.Web"
+		Release.AspNetCompiler.PhysicalPath = "..\Open.Demo.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Open.Demo.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12136"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.MingdaoSDK", "Open.MingdaoSDK\Open.MingdaoSDK.csproj", "{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = Open.Demo.Web
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Open.Demo.Web\\
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = Open.MingdaoSDK\\Open.MingdaoSDK.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Open.MingdaoSDK\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Debug|.NET.ActiveCfg = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Debug|.NET.Build.0 = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Release|.NET.ActiveCfg = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Release|.NET.Build.0 = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Release|.NET.ActiveCfg = Release|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
