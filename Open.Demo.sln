@@ -3,10 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "E:\...\Open.Demo.Web\", "Open.Demo.Web", "{6F64F8BA-C288-4C4A-9C79-BD6D9C9D6610}"
 	ProjectSection(WebsiteProperties) = preProject
-		SccProjectName = ""$/Open.Demo.root/Open.Demo", OPGGAAAA"
+		SccProjectName = ""
 		SccAuxPath = ""
-		SccLocalPath = ".."
-		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		SccLocalPath = ""
+		SccProvider = ""
 		ProjectReferences = "{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}|Open.MingdaoSDK.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/Open.Demo.Web"
 		Debug.AspNetCompiler.PhysicalPath = "..\Open.Demo.Web\"
@@ -28,18 +28,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.MingdaoSDK", "Open.MingdaoSDK\Open.MingdaoSDK.csproj", "{7DA04FFB-E132-4694-AC83-C8EAF99CD7C7}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 3
-		SccLocalPath0 = .
-		SccWebProject1 = true
-		SccProjectUniqueName1 = Open.Demo.Web
-		SccLocalPath1 = .
-		SccProjectFilePathRelativizedFromConnection1 = Open.Demo.Web\\
-		SccProjectEnlistmentChoice1 = 2
-		SccProjectUniqueName2 = Open.MingdaoSDK\\Open.MingdaoSDK.csproj
-		SccLocalPath2 = .
-		SccProjectFilePathRelativizedFromConnection2 = Open.MingdaoSDK\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
 		Debug|Any CPU = Debug|Any CPU
